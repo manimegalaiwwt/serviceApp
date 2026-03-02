@@ -1,0 +1,238 @@
+body{
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+.layout{
+  display: flex;
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  border-bottom: 3px solid red;
+}
+.logo{
+  color: darkred;
+}
+.logo-img{
+  width: 30%;
+  margin-right: 5px;
+}
+.nav{
+  display: flex;
+  list-style: none;
+  gap: 7px;
+}
+.nav li{
+  cursor: pointer;
+  padding: 10px;
+}
+.nav .active{
+  background-color: #b30000;
+  color: white;
+  padding: 20px;
+  font-weight: bold;
+}
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  border-radius: 3px;
+}
+.nav-item.active {
+  background-color: #b30000;
+  font-weight: bold;
+}
+
+.card{
+  background-color: white;
+  padding: 40px;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.nav a {
+  color: inherit;
+  text-decoration: none;
+}
+.phone {
+  color: red;
+  font-weight: bold;
+  font-size: 18px;
+}
+.main{
+  display: flex;
+  gap: 30px;
+  flex-direction: row;
+  padding: 30px;
+}
+.service-row{
+  display: flex;
+  gap:60px
+}
+.left {
+  width: 80%;
+}
+.service-image{
+  width: 80%;
+  height:40%;
+}
+.service-img-fridge{
+  width: 100%;
+  height:55%;
+  margin-top: 70px;
+}
+.right {
+  width: 35%;
+  padding-left: 20px;
+  border-left: 2px solid red;
+} 
+.right textarea {
+  font-family: Arial, sans-serif; /* same as body */
+  font-size: 14px;
+}
+.title {
+  color: red;
+  font-size: 25px;
+}
+.service-title {
+  color: red;
+  margin-top: 20px;
+}
+.service-list li {
+  margin-bottom: 5px;
+}
+.service-image img {
+  width: 100%;
+  height: 60%;
+  margin-left: 40px;
+  margin-top: 100px;
+}
+.right input, textarea {
+  width: 90%;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+.addres{
+  margin-top: 30px;
+}
+.red {
+  color: red;
+}
+.right button{
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  border: none;
+  width: 120px;
+  padding: 10px;
+  margin-top: 60px;
+  border-radius: 1px;
+  margin-bottom: 100px;
+}
+.right button:disabled{
+  background-color: #ccc;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.cta{
+  display: flex;
+  justify-content: space-between;
+  background-color: red;
+  color: white;
+  align-items: center;
+  font-size: 18px;
+  padding: 40px;
+}
+.cta-button{
+  color: black;
+  border: none;
+  padding: 15px 25px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.footer p{
+  margin-bottom: 10px;
+}
+.copyright {
+  text-align: center;
+  margin-top: 20px;
+}
+.sidebar {
+  width: 200px;
+  background: red;
+  color: black;
+  padding: 20px;
+}
+
+.sidebar-title {
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: white;
+}
+
+.sidebar-nav {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-nav li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  cursor: pointer;
+  border-radius: 6px;
+  margin-bottom: 8px;
+}
+
+.icon {
+  font-size: 18px;
+}
+
+.sidebar-nav a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: white;
+  width: 100%;
+}
+
+.sidebar-nav li {
+  padding: 12px;
+  border-radius: 2px;
+}
+.service-form{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.btn{
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  border: none;
+  width: 120px;
+  padding: 10px;
+  align-items: center;
+  margin-top: 10px;
+  border-radius: 1px;
+  margin-bottom: 50px;
+}
+.service-form input,
+.service-form textarea {
+  padding: 8px;
+  width: 90%;
+}
+
+
