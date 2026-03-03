@@ -8,7 +8,7 @@ import SideBar from './Components/SideBar'
 import About from './pages/About'
 import Home from './pages/Home'
 import Process from './pages/Process'
-import Service from './pages/service'
+import Service from './pages/Service'
 import Contact from './pages/Contact'
 
 
