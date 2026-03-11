@@ -31,7 +31,7 @@ function App() {
       </Routes>
     </div>
     </div>
-    <CTA/>
+    {/* <CTA/> */}
     <FootSection/>
    </BrowserRouter>
   )

@@ -111,7 +111,7 @@ export default function ContactBox() {
         required>
         </textarea>
 
-        <button onClick={handleSubmit} disabled={!isFormValid}>SUBMIT</button>
+        <button onClick={handleSubmit} disabled={!isFormValid} style={{ display: 'block', margin: '20px auto 0', padding: '10px 30px' }}>SUBMIT</button>
 
         {/* <div className='adress'>
           <h4>ADDRESS & PHONE</h4>

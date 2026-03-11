@@ -52,7 +52,7 @@ export default function Service() {
         </div>
         </div>
         <div>
-            <h2 className='title'>For More information For Direct Vist, Estimate, Repair Services.</h2>
+            <h2 className='title'>For More information For Direct Visit, Estimate, Repair Services.</h2>
             <p>If you are searching for “Home appliances service near me”, we are just one call away!</p>
             <p><strong>WhatsApp/call - 9342232571 /9344600166</strong></p>
         </div>
