@@ -10,7 +10,7 @@ import Home from './pages/Home'
 import Process from './pages/Process'
 import Service from './pages/Service'
 import Contact from './pages/Contact'
-
+import Terms from './pages/Terms'
 
 
 
@@ -27,6 +27,7 @@ function App() {
         <Route path='/process' element={<Process/>}></Route>
         <Route path='/service' element={<Service/>}></Route>
         <Route path='/contact' element={<Contact/>}></Route>
+        <Route path='/terms' element={<Terms/>}></Route>
       </Routes>
     </div>
     </div>

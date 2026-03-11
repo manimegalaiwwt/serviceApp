@@ -113,20 +113,20 @@ export default function ContactBox() {
 
         <button onClick={handleSubmit} disabled={!isFormValid}>SUBMIT</button>
 
-        <div className='adress'>
+        {/* <div className='adress'>
           <h4>ADDRESS & PHONE</h4>
           <p>PML SERVICES</p>
           <p>All City in Tamilnadu</p>
           <p className="red">+91 - 123456789</p>
-        </div>
-        <div className='video-section'>
+        </div> */}
+        {/* <div className='video-section'>
            <video
             width="100%"
             height="400"
             controls autoPlay={true} muted>
               <source src={serviceVideo} type="video/mp4" />
            </video>
-        </div>
+        </div> */}
         </div>
     </div>
   )

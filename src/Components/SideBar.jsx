@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaHome, FaInfoCircle, FaTools, FaCogs, FaPhoneAlt, } from 'react-icons/fa'
+import { FaHome, FaInfoCircle, FaTools, FaCogs, FaPhoneAlt, FaFileAlt } from 'react-icons/fa'
 import { Link, NavLink } from 'react-router-dom'
 
 export default function SideBar() {
@@ -35,6 +35,12 @@ export default function SideBar() {
             <NavLink to='/contact' className='nav-item'>
               <FaPhoneAlt  />
               <span>Contact</span>
+            </NavLink>
+           </li>
+           <li>
+            <NavLink to='/terms' className='nav-item'>
+              <FaFileAlt className="icon" />
+              <span>Terms</span>
             </NavLink>
            </li>
         </ul>

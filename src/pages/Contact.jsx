@@ -74,7 +74,7 @@ export default class Contact extends Component {
       <div className="main">
         <div className="left">
           <div className="card">
-            <h1 className="title">PLM Service Centre</h1>
+            <h1 className="title">PLM Service Centre - Contact</h1>
             <p>We Provide repair services 24 / 7, include Door Step Service</p>
 
             <div className="service-row">

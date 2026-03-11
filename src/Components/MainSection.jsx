@@ -2,7 +2,7 @@ import React from 'react'
 import ContactBox from './ContactBox'
 //import washingMachine from '../assets/washingMachine.png'
 import fridge from '../assets/OIP.jpg'
-import washingMachine from '../assets/fridge.png'
+import washingMachine from '../assets/home_app.png'
 
 export const MainSection = () => {
   return (
@@ -11,12 +11,17 @@ export const MainSection = () => {
         <div className='card'>
         <h2 className='title'>PLM SERVICES</h2>
         <p>
-        <strong>UltraClean - Clean Clothes Start with a Healthy Machine.</strong>  
-          We are a trusted washing machine and home appliances service center in Chennai, offering reliable and affordable repair and maintenance solutions. Our services include washing machine servicing and tub cleaning, add-on filter installation, microwave oven repair, dishwasher service, air conditioner repair, refrigerator service, and television repair.
+        Are you looking for washing machine, air conditioner, refrigerator, television, microwave oven, or dishwasher service in Chennai? You're in the right place! Just fill the form or call us, and we'll do the rest. Our inspection charges are very low compared to other service providers in Chennai. 
+        Our service support is designed to make you feel comfortable and reliable.
         </p>
-
+              <p>
+         We offer the best services in Chennai for all areas, and we attend to calls within 2 hours. Once you place a service request, you'll be notified via SMS or WhatsApp with service request order details, 
+        along with the technician's mobile number who will attend to your service request.
+        </p>
         <p>
-          Our trained and experienced technicians provide fast doorstep service across Chennai and surrounding areas, especially Poonamallee. We service all major brands such as LG, Samsung, IFB, Bosch, Whirlpool, Haier, and more. With transparent pricing and an inspection charge of just ₹299, we ensure quality service you can rely on. If you’re searching for “home appliances service near me,” UltraClean is just one call or WhatsApp away.
+         Our service request system is very secure and convenient. We offer a 30-day warranty on our services, 
+         ensuring the best work done by our technicians. 
+         Our customer service team guarantees continued support and follow-ups, as we care for your units.
         </p>
 
         <div className='video-section'>

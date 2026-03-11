@@ -6,7 +6,7 @@ export default function About() {
     <div className='main'>
         <div className='left'>
             <div className='card'>
-                <h2 className='title'>PML SERVICES</h2>
+                <h2 className='title'>ABOUT PML SERVICES</h2>
                 <p>
                     We are one of the premier repair service centres in:<strong>Chennai, Coimbatore, Trippur, Madurai, Trichy, Salem, Theni, Dindugul, Puducheri</strong>
                 </p>

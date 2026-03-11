@@ -2,7 +2,7 @@
 import React from 'react'
 //import washingMachine from '../assets/washingMachine.png'
 import fridge from '../assets/OIP.jpg'
-import washingMachine from '../assets/fridge.png'
+import washingMachine from '../assets/home_app.png'
 import ContactBox from '../Components/ContactBox'
 
 export default function Service() {
