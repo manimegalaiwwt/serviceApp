@@ -27,11 +27,11 @@ export const MainSection = () => {
             color: 'white', 
             padding: '30px', 
             borderRadius: '15px 0 0 15px',
-            minWidth: '250px',
+            minWidth: '200px',
             display: 'flex',
             flexDirection: 'column',
             justifyContent: 'space-between',
-            flex: '0 0 30%'
+            flex: '0 0 20%'
           }}>
             <div>
               <h2 style={{ fontSize: '28px', fontWeight: 'bold', marginBottom: '10px' }}>
